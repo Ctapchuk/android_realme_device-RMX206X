@@ -31,6 +31,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_SOONG_NAMESPACES += \
     device/realme/RMX206X
 
+QCOM_SOONG_NAMESPACE := $(LOCAL_PATH)
+
 # Refresh Rate
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += vendor.display.enable_kernel_idle_timer=true
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.surface_flinger.use_color_management=true

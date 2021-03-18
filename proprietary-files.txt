@@ -1798,11 +1798,6 @@ vendor/lib64/libssc_default_listener.so
 vendor/lib64/sensors.ap.so
 vendor/lib64/sensors.ssc.so
 
-vendor/bin/hw/android.hardware.sensors@2.0-service
-vendor/etc/init/android.hardware.sensors@2.0-service.rc
-vendor/lib/android.hardware.sensors@2.0-impl.so
-vendor/lib64/android.hardware.sensors@2.0-impl.so
-
 # Soter
 -app/SoterService/SoterService.apk
 product/framework/vendor.qti.hardware.soter-V1.0-java.jar

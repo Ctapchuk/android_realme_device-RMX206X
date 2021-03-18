@@ -309,6 +309,10 @@ PRODUCT_PACKAGES += \
     android.system.net.netd@1.1 \
     netutils-wrapper-1.0
 
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power@1.2-service.x2
+
 # QTI
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \

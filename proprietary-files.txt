@@ -737,12 +737,6 @@ vendor/lib64/unnhal-acc-common.so
 vendor/lib64/unnhal-acc-hta.so
 vendor/lib64/unnhal-acc-hvx.so
 
-# Power-Hardware
-vendor/bin/hw/android.hardware.power@1.2-service
-vendor/etc/init/android.hardware.power@1.2-service.rc
-vendor/lib/hw/power.default.so
-vendor/lib64/hw/power.default.so
-
 # Display-calibration
 vendor/etc/qdcm_calib_data_nt36672c_fhd_plus_video_mode_dsi_panel.xml
 vendor/etc/qdcm_calib_data_nt36672c_jdi_fhd_plus_video_mode_dsi_panel.xml

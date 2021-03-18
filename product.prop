@@ -1,0 +1,19 @@
+# Camera
+camera.disable_zsl_mode=1
+
+# Charger
+ro.charger.enable_suspend=true
+
+# Graphics
+debug.sf.hw=0
+debug.gralloc.enable_fb_ubwc=1
+debug.sf.disable_client_composition_cache=1
+
+# LMKD
+ro.config.low_ram=false
+
+# Incremental FS
+ro.incremental.enable=1
+
+# USAP
+persist.device_config.runtime_native.usap_pool_enabled=true

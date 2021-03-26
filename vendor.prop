@@ -112,6 +112,12 @@ persist.vendor.service.bt.iotinfo.report.enable=true
 ro.bluetooth.a2dp_offload.supported=true
 vendor.qcom.bluetooth.soc=cherokee
 
+# Charger
+ro.charger.enable_suspend=true
+
+# CNE
+persist.vendor.cne.feature=1
+
 # Camera
 ro.camera.hfr.enable=1
 ro.camera.relight.enable=0
